@@ -1,0 +1,39 @@
+<div class="section-2">
+  <h2>Progetti 💼</h2>
+  <p>Esplora alcuni dei miei progetti recenti:</p>
+  
+  <div class="project-grid">
+    <div class="project-card" *ngFor="let project of projects">
+      <img [src]="project.imageUrl" alt="{{ project.title }}" class="project-image">
+      <div class="project-details">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.subtitle }}</p>
+        <p>{{ project.description }}</p>
+        <div class="project-links">
+          <div class="project-link">
+            <a href="{{ project.projectUrl }}" target="_blank">
+              <div class="project-icon">
+                <img src="https://t4.ftcdn.net/jpg/05/89/27/21/360_F_589272121_akMVElogcYg2xhMoL3EQntLNKSQ4X6zC.jpg" alt="Project">
+              </div>
+            </a>
+        </div>
+          <div class="project-link">
+            <a href="{{ project.githubUrl1 }}" target="_blank">
+              <div class="project-icon">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub">
+              </div>
+            </a>
+
+          </div>
+          <div class="project-link">
+            <a href="{{ project.githubUrl2 }}" target="_blank">
+              <div class="project-icon">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub 2">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

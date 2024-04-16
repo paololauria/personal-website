@@ -1,0 +1,31 @@
+.section-2 {
+   font-family: 'Red Hat Display', sans-serif;
+   width: 70%; 
+   background-color: #f2f2f2; 
+   padding: 20px; 
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.406); 
+   margin: 20px auto;
+   max-width: 800px; 
+}
+
+.section-2 h2 {
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 1.7rem;
+   margin-bottom: 1rem;
+   color: #0f172a;
+}
+
+.section-2 p {
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 1rem; 
+   margin: 0; 
+   padding-bottom: 1rem; 
+   color: black; 
+}
+
+.section-2 h3 {
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 1.4rem;
+   font-weight: 700;
+}

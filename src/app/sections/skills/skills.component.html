@@ -1,0 +1,11 @@
+<div class="section-2">
+  <h2>Skills 🕹️</h2>
+  <p>Ecco alcune delle tecnologie con cui sono più familiare:</p>
+
+  <div class="technology-list">
+    <div class="technology-item" *ngFor="let technology of technologies">
+      <div class="technology-logo" [style.backgroundImage]="'url(' + technology.imageUrl + ')'"></div>
+    </div>
+  </div>
+  
+</div>
