@@ -2,10 +2,56 @@
   <h2>Skills 🕹️</h2>
   <p>Ecco alcune delle tecnologie con cui sono più familiare:</p>
 
+  <h3>Languages</h3>
   <div class="technology-list">
-    <div class="technology-item" *ngFor="let technology of technologies">
-      <div class="technology-logo" [style.backgroundImage]="'url(' + technology.imageUrl + ')'"></div>
+    <div
+      class="technology-item"
+      *ngFor="let technology of programmingLanguages"
+    >
+      <div
+        class="technology-logo"
+        [style.backgroundImage]="'url(' + technology.imageUrl + ')'"
+      ></div>
     </div>
   </div>
-  
+
+  <h3>Frameworks</h3>
+  <div class="technology-list">
+    <div class="technology-item" *ngFor="let technology of frameworks">
+      <div
+        class="technology-logo"
+        [style.backgroundImage]="'url(' + technology.imageUrl + ')'"
+      ></div>
+    </div>
+  </div>
+
+  <h3>Tools</h3>
+  <div class="technology-list">
+    <div class="technology-item" *ngFor="let technology of tools">
+      <div
+        class="technology-logo"
+        [style.backgroundImage]="'url(' + technology.imageUrl + ')'"
+      ></div>
+    </div>
+  </div>
+
+  <h3>Databases</h3>
+  <div class="technology-list">
+    <div class="technology-item" *ngFor="let technology of databases">
+      <div
+        class="technology-logo"
+        [style.backgroundImage]="'url(' + technology.imageUrl + ')'"
+      ></div>
+    </div>
+  </div>
+
+  <h3>IDE</h3>
+  <div class="technology-list">
+    <div class="technology-item" *ngFor="let technology of ide">
+      <div
+        class="technology-logo"
+        [style.backgroundImage]="'url(' + technology.imageUrl + ')'"
+      ></div>
+    </div>
+  </div>
 </div>

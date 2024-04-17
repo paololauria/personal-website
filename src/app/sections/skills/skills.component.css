@@ -1,57 +1,74 @@
 .section-2 {
-   font-family: 'Red Hat Display', sans-serif;
-   width: 70%;
-   background-color: #f2f2f2;
-   padding: 20px;
-   border-radius: 5px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.406);
-   margin: 20px auto;
-   max-width: 800px;
+  font-family: "Red Hat Display", sans-serif;
+  width: 70%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.406);
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 .section-2 h2 {
-   font-family: 'Red Hat Display', sans-serif;
-   font-size: 1.7rem;
-   margin-bottom: 1rem;
-   color: #0f172a;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #ffd740;
+  border: 1px solid #0f172a;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: #0f172a;
 }
 
 .section-2 p {
-   font-family: 'Red Hat Display', sans-serif;
-   font-size: 1rem;
-   margin: 0;
-   padding-bottom: 1rem;
-   color: black; 
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  color: black;
 }
 
 .section-2 h3 {
-   font-family: 'Red Hat Display', sans-serif;
-   font-size: 1.4rem;
-   font-weight: 700;
+  color: #0f172a;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 12px;
+  max-width: fit-content;
+  padding: 5px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.section-2 h3:hover {
+  color: #ffd740;
+  background-color: #0f172a;
 }
 
 .technology-list {
-   display: flex;
-   flex-wrap: wrap;
- }
- 
- .technology-item {
-   width: 42px;
-   height: 42px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-   border-radius: 50%;
- }
- 
- .technology-logo {
-   width: 100%;
-   height: 100%;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-   transition: transform 0.3s ease;
- }
- 
- .technology-logo:hover {
-   transform: scale(1.1);
- }
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technology-item {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.technology-logo {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.technology-logo:hover {
+  transform: scale(1.1);
+}
